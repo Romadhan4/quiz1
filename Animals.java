@@ -9,29 +9,29 @@ public class Animals {
 	double weight;
 	
 	//setter
-	public void setAnimal (String typeAnimal) {
+	public void setAnimal () {
 			System.out.println ("please enter the type of animal");
 			this.typeAnimal=scan.nextLine();
 
 	}
-	public void setName (String name) {
+	public void setName () {
 		System.out.println ("please enter the name of animakl");
 		this.name=scan.nextLine();
 	}
-	public void setJantina( String jantina) {
+	public void setJantina( ) {
 		System.out.println ("please enter the jantina of animal");
 		this.jantina=scan.nextLine();
 	}
-	public void setColor ( String color) {
+	public void setColor ( ) {
 		System.out.println ("please enter the color of animal");
 		this.color=scan.nextLine();
 	}
-	public void setAge( int age) {
+	public void setAge() {
 		System.out.println ("please enter the age of animal");
 		this.age=scan.nextInt();
 	}
-	public void setWeight(double weight) {
-		System.out.println ("please enter the type of animal");
+	public void setWeight() {
+		System.out.println ("please enter the weight of animal");
 		this.weight = scan.nextDouble();
 	}
 	

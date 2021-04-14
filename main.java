@@ -4,12 +4,12 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Animals a = new Animals ();
-		a.setAnimal("Rabbit");
-		a.setName("Rabbita");
-		a.setJantina("Male");
-		a.setColor("Mix black and white");
-		a.setAge(2);
-		a.setWeight(2.3);
+		a.setAnimal();
+		a.setName();
+		a.setJantina();
+		a.setAge();
+		a.setColor();
+		a.setWeight();
 		System.out.println ("Animal 1");
 		System.out.println ("Animal \t\t:"+a.gettypeAnimal());
 		System.out.println ("Name of animal\t:"+a.getName());
@@ -19,13 +19,13 @@ public class main {
 		System.out.println ("Weight \t\t:"+a.getWeight()+"Kg\n");
 		
 		Animals b = new Animals ();
-		b.setAnimal("Cat");
-		b.setName("Catty");
-		b.setJantina("Male");
-		b.setColor("Black");
-		b.setAge(1);
-		b.setWeight(1.5);
 		
+		b.setAnimal();
+		b.setName();
+		b.setJantina();
+		b.setAge();
+		b.setColor();
+		b.setWeight();
 		System.out.println ("Animal 2");
 		System.out.println ("Animal \t\t:"+b.gettypeAnimal());
 		System.out.println ("Name of animal\t:"+b.getName());
